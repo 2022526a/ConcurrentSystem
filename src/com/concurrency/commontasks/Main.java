@@ -10,5 +10,9 @@ public class Main {
         List<Integer> flatList = CSVReader.readFlatList(filePath);
         int[][] matrix = CSVReader.readMatrix(filePath, 20, 10);
 
+        double stdDev = StandardDeviationCalculator.calculate(flatList);
+        System.out.println("Standard Deviation: " + stdDev);
+
+
     }
 }
