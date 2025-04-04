@@ -25,5 +25,7 @@ public class Main {
             System.out.println();
         }
 
+        List<Integer> sorted = MergeSorter.concurrentMergeSort(flatList);
+        System.out.println("Sorted data (desc): " + sorted);
     }
 }
